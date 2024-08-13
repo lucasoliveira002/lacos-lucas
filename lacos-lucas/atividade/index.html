@@ -1,25 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comparação de Populações</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!--Item.7.4.1 -->
     <div class="container">
+
+        <!--Item.7.4.2 -->
         <h1>Comparação de Populações</h1>
+
+        <!--Item.7.4.3 -->
         <form id="formCalculo">
+
+            <!--Item.7.4.4 -->
             <div class="inputs">
+
+                <!--Item.7.4.5 -->
                 <label for="popA">População do país A:</label>
+
+                <!--Item.7.4.6 -->
                 <input type="number" id="popA" placeholder="População do país A">
-                <label for="taxaA">Taxa de Crescimento do pais A(%):</label>
+
+                <!--Item.7.4.7 -->
+                <label for="taxaA">Taxa de Crescimento anual do país A(%):</label>
+
+                <!--Item.7.4.8 -->
                 <input type="number" id="taxaA" placeholder="Taxa de Crescimento do país A">
+
+                <!--Item.7.4.9 -->
                 <label for="popB">População do país B</label>
+
+                <!--Item.7.4.10 -->
                 <input type="number" id="popB" placeholder="População do país B">
-                <input type="number" id="popB" >
+
+                <!--Item.7.4.11 -->
+                <label for="taxaB">Taxa de Crescimento anual do país B(%):</label>
+
+                <!--Item.7.4.12 -->
+                <input type="number" id="taxaB" placeholder="Taxa de Crescimento do país B">
+
             </div>
+
+            <button type="button" onclick="calcularAnos()">Calcular</button>
+
+            <br><br><br>
+
+            <button type="button" onclick="limparCampos()">Limpar</button>
+
         </form>
+
+        <div id="resultado"></div>
+
     </div>
+
 </body>
+
 </html>
