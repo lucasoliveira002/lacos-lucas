@@ -33,5 +33,18 @@ function calcularAnos(){
     let resultado = document.getElementById("resultado");
     resultado.innerHTML=`Serão necessários ${anos} anos para que a população de A ultrapasse ou iguale a de B`;
 
+}
 
+function limparCampos(){
+    console.log("Botão de Limpar Campos");
+    document.getElementById("popA").value = "";
+    document.getElementById("taxaA").value = "";
+    document.getElementById("popB").value = "";
+    document.getElementById("taxaB").value = "";
+
+    let resultado = document.getElementById("resultado");
+
+    resultado.innerHTML="";
+    /*A propriedade innerHTML é utilizada em JavaScript para definir, atribuir ou retornar o conteudo HTML
+    de um elemento*/
 }
