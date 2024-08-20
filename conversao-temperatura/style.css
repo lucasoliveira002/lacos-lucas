@@ -1,0 +1,14 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width:80%;
+    text-align: center;
+}
